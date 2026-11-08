@@ -2,10 +2,10 @@
 
 void ft_print_comb2 (void)
 {
-	int	a;
-	int	b;
-	int	d;
-	int	e;
+	int		a;
+	int		b;
+	int		d;
+	int		e;
 	char	x;
 	char	y;
 	a = 0;
