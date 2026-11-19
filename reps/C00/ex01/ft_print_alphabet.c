@@ -1,23 +1,26 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_putstr.c                                        :+:      :+:    :+:   */
+/*   ft_print_alphabet.c                                :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: login valisoalucka@gmail.com               +#+  +:+       +#+        */
+/*   By: valisoa <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/11/07 06:00:00 by login             #+#    #+#             */
-/*   Updated: 2026/11/07 06:00:00 by login            ###   ########.fr       */
+/*   Created: 2026/11/19 11:00:25 by valisoa           #+#    #+#             */
+/*   Updated: 2026/11/19 11:00:40 by valisoa          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
 
-void	ft_putstr(char *str);
+void	ft_print_alphabet(void)
+{
+	char	*c;
+
+	c = "abcdefghijklmnopqrstuvwxyz";
+	write(1, c, 27);
+}
 
 int	main(void)
 {
-	char	*str;
-
-	ft_putstr(&str);
-	write(1, *str, 13);
+	ft_print_alphabet();
 }

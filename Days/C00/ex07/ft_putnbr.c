@@ -1,11 +1,11 @@
 #include <unistd.h>
 
-void ft_putnbr (int nb)
+void	ft_putnbr(int nb)
 {
 	char	a;
 }
 
-int main (void)
+int	main(void)
 {
-	ft_putnbr (42);
+	ft_putnbr(42);
 }
